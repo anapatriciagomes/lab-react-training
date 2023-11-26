@@ -1,4 +1,5 @@
 body {
+  font-size: 16px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,140 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#ids-list {
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.id-card {
+  display: flex;
+  border: 1px solid black;
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.id-card img {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+}
+
+.id-content {
+  margin: auto 0;
+}
+
+.id-card p {
+  margin: 0;
+  padding: 2px 10px;
+  text-align: left;
+}
+
+.flag-icons button {
+  font-size: 1.5em;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.flag-icons button:hover {
+  border: 2px solid grey;
+  cursor: pointer;
+}
+
+#name-input {
+  margin: 20px;
+  font-size: 1.2em;
+  color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.greeting-text {
+  font-size: 1.5em;
+}
+
+.number-inputs input {
+  margin: 10px;
+  width: 50px;
+  color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.color-input input {
+  margin: 5px;
+  width: 50px;
+  color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.color-box {
+  margin: 20px auto;
+  text-align: center;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.credit-card {
+  width: 350px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.credit-card img {
+  width: 50px;
+  padding: 10px;
+  margin: 10px 0 0 250px;
+}
+
+.card-number {
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+.credit-card p {
+  margin: 5px 0 0 20px;
+}
+
+.card-details {
+  display: flex;
+}
+
+.card-details p {
+  padding-right: 10px;
+  text-align: left;
+}
+
+.card-owner {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#rating-value {
+  margin: 5px;
+  width: 50px;
+  color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.stars {
+  font-size: 2em;
+  margin: 20px 0;
 }
