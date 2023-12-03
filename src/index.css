@@ -260,23 +260,41 @@ input {
   color: white;
 }
 
+.country-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 50px;
+}
+
+.country-buttons button {
+  padding: 10px 20px;
+  margin: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
 .data-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: 20px 30px;
 }
 
 .contact-card {
   width: 400px;
-  margin: 20px auto;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
-  border: 1px solid lightgray;
 }
 
 .contact-card img {
   margin: 20px;
+  cursor: pointer;
 }
 
 .contact-details {
@@ -285,16 +303,85 @@ input {
   text-align: left;
 }
 
-.country-buttons {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.country-buttons button {
+.sortButton {
   padding: 10px 20px;
-  margin: 20px;
+  margin: 5px 10px;
   border: none;
   border-radius: 10px;
   font-size: 1.2em;
   cursor: pointer;
+  background-color: lightseagreen;
+}
+
+#facebook-search-input {
+  margin: 20px;
+  width: 200px;
+  color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.sign-up-page {
+  margin: 30px;
+}
+
+.sign-up-page p {
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+#email-input,
+#password-input,
+#nationality-input {
+  margin: 20px auto 5px auto;
+  width: 400px;
+  color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.valid-feedback,
+.invalid-feedback {
+  margin: 5px auto;
+  text-align: left;
+}
+
+#sign-up-button {
+  margin: 20px;
+}
+
+.rgb-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.rgb-color p {
+  width: 90px;
+  margin: 0;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.rgb-color input {
+  width: 60px;
+}
+
+.rgb-color-final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.rgb-color-final p {
+  width: 150px;
+  margin: 0;
+  text-align: left;
+  text-indent: 10px;
 }
